@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+  }
+  body {
+      background-color: rgba(231, 231, 226, 0.733);
+      height: 100vh;
+      /* display: flex;
+      justify-content: center;
+      align-items: center;  */
+    }
+  
+    .container {
+      background-color: white;
+    }
+    .card{
+      position: relative;
+      display: block;
+      border-radius: 8px;
+      overflow: hidden;
+      margin: 15px;
+      border: 2px solid #fff;
+  }
+    .card:hover{
+    box-shadow: 5px -5px 8px 3px rgba(115, 218, 200, 0.52);
+}
+  img{
+      width: 100%;
+      transition: all linear 1s;
+  }
+  img.hover-img{
+      position: absolute;
+      top: 0;
+      left: 0;
+      opacity: 0;
+  
+  }
+  .card:hover img{
+      opacity: 0;
+  }
+  .card:hover img.hover-img{
+      opacity: 1;
+  }
+  .product{
+    background-color: rgb(13, 204, 251);
+    color: black;
+}
+  
+  
